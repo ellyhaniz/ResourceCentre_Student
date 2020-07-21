@@ -250,7 +250,7 @@ public class ResourceCentre {
 		
 		
 	}
-	//p
+	//sgsr
 	//================================= Option 4 Return =================================
 	public static boolean doReturnCamcorder(ArrayList<Camcorder> camcorderList,String tag) {
 		boolean isReturned = false;
