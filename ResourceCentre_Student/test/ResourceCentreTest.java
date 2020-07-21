@@ -79,14 +79,14 @@ public class ResourceCentreTest {
 		// Given an empty list, after adding 2 items, test if the size of the list is 2
 		ResourceCentre.addCamcorder(camcorderList, cc1);
 		ResourceCentre.addCamcorder(camcorderList, cc2);
-<<<<<<< HEAD
+
 		assertEquals("Test if that Camcorder arraylist size is 0?", 0, camcorderList.size());
 		
 		//test if the expected output string same as the list of camcorders retrieved from the SourceCentre
 		allCamcorder= ResourceCentre.retrieveAllCamcorder(camcorderList);
-=======
+
 		assertEquals("Test if that Camcorder arraylist size is 2?", 2, camcorderList.size());
->>>>>>> branch 'master' of https://github.com/ellyhaniz/ResourceCentre_Student.git
+
 
 		// test if the expected output string same as the list of camcorders retrieved
 		// from the SourceCentre
@@ -103,7 +103,7 @@ public class ResourceCentreTest {
 	public void retrieveAllChromebookTest() {
 		// fail("Not yet implemented");
 		// write your code here
-<<<<<<< HEAD
+
 	
 				assertNotNull("Test if there is valid Chromebook arraylist to add to", chromebookList);
 				
@@ -125,8 +125,8 @@ public class ResourceCentreTest {
 				
 			
 				assertEquals("Check that viewAllChromebook", testOutput, allChromebook);
-=======
->>>>>>> branch 'master' of https://github.com/ellyhaniz/ResourceCentre_Student.git
+
+
 	}
 
 	@Test
