@@ -46,7 +46,7 @@ public class ResourceCentreTest {
 		// Add another item. test The size of the list is 2?
 		ResourceCentre.addCamcorder(camcorderList, cc2);
 		assertEquals("Test that Camcorder arraylist size is 2?", 2, camcorderList.size());
-	}
+	} 
 
 	@Test
 	public void addChromebookTest() {
